@@ -8,7 +8,8 @@
 [![](https://img.shields.io/badge/Nacos-Check%20Your%20Contribution-orange)](https://opensource.alibaba.com/contribution_leaderboard/details?projectValue=nacos)
 
 -------
-
+## 打包命令: mvn -Prelease-nacos '-Dmaven.test.skip=true' clean install -U
+## 参考：https://blog.csdn.net/cao6966258/article/details/136172325
 ## What does it do
 
 Nacos (official site: [nacos.io](https://nacos.io)) is an easy-to-use platform designed for dynamic service discovery and configuration and service management. It helps you to build cloud native applications and microservices platform easily.
